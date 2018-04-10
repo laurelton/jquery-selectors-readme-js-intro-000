@@ -3,9 +3,9 @@ function paragraphSelector () {
   return $('p');
 }
 
-let lastImageSelector = function () {
+function lastImageSelector () {
   return $('img:first-child');
-};
+}
 
 let ninjaBabySelector = function () {
   return $('#baby-ninja');
